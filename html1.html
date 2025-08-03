@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile Page</title>
+</head>
+<body>
+    <div>
+        <h1>Student Profile</h1>
+        <h2>Personal Information</h2>
+        <p>Name: Chandru N</p>
+        <p>Age: 20</p>
+        <p>Major: Computer Science</p>
+        
+        <h2>Profile Picture</h2>
+        <img src="C:\Users\JOEL\Pictures\Screenshots\chan.png" alt="Profile Picture" width="200">
+
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:johndoe@example.com">chandru@gmail.com</a></p>
+        
+        <h2>Academic Performance</h2>
+        <table>
+            <tr>
+                <th>Subject</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>Mathematics</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>Computer Science</td>
+                <td>A+</td>
+            </tr>
+        </table>
+
+        <h2>Audio Introduction</h2>
+        <audio controls>
+            <source src="introduction.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h2>Video Introduction</h2>
+        <video width="320" height="240" controls>
+            <source src="introduction.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <h2>Embedded Content</h2>
+        <embed src="document.pdf" type="application/pdf" width="600" height="400">
+
+        <h2>Iframe Example</h2>
+        <iframe src="https://www.example.com" width="600" height="400"></iframe>
+
+        <h2>Feedback Form</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Feedback</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="feedback">Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
+
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><br><br>
+
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+        <h2>Progress Bar</h2>
+        <progress value="70" max="100">70%</progress>
+    </div>
+</body>
+</html>
